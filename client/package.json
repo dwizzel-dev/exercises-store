@@ -27,7 +27,7 @@
     "@angular/tsc-wrapped": "~4.4.3",
     "@angular/upgrade": "~4.4.3",
     "@ngx-config/core": "4.0.1",
-	  "@ngx-config/http-loader": "4.0.1",
+    "@ngx-config/http-loader": "4.0.1",
     "angular-in-memory-web-api": "~0.4.6",
     "core-js": "^2.5.1",
     "minimatch": "3.0.4",
