@@ -1,0 +1,28 @@
+<div>
+    <div>
+        <h3>{{ 'categories.title' | translate }}</h3>
+    </div>
+    <div>
+        <filterbox 
+            [filterboxParams]="filterBox" 
+            (onChangeInputValue)="onFilterboxInputValueChange($event)"  
+        ></filterbox>
+    </div>
+</div>
+<div> 
+    <usermsg 
+        [usermsgParams]="userMsg"
+    ></usermsg>
+     <usermsg 
+        [usermsgParams]="userMsgCountResult"
+    ></usermsg>
+</div>        
+<div class="listing-box"> 
+    <div class="listing">
+        <div *ngFor="let cat of arrFilteredCategories">
+            <checkbox 
+                [checkboxParams]="cat"
+            ></checkbox>
+        </div>
+    </div>
+</div>

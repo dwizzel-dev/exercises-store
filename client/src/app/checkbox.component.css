@@ -1,0 +1,16 @@
+/* 
+parent label element of the checkbox element 
+*/
+label.label-checked{
+color:#31b0d5;
+}
+label.label-disabled{
+opacity:0.5;
+}
+/*
+label text adjustment
+*/
+label .text{
+/*margin-top: -2px;*/
+font-size: smaller;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "test node.js server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect server.js"
+  },
+  "author": "dwizzel.dev",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "2.5.7",
+    "express": "4.16.0",
+    "mongodb": "2.2.31",
+    "mongojs": "2.4.1",
+    "vhost": "3.0.2"
+  }
+}

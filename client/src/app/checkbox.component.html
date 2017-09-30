@@ -1,0 +1,14 @@
+<div class="form-check">
+    <label class="form-check-label">
+        <input 
+        class="form-check-input" 
+        type="checkbox" 
+        [value]="checkboxParams.value" 
+        [checked]="checkboxParams.checked" 
+        [disabled]="checkboxParams.disabled" 
+        (onChangeCheckedState)="onCheckboxStateChange($event)" 
+        checkbox
+        >
+        <div class="text" [innerHTML]="checkboxParams.label"></div> 
+    </label>
+</div>

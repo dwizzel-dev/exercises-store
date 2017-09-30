@@ -1,0 +1,42 @@
+{
+  "generic":{
+    "loading": "please wait!..."
+  },
+  "errormsg": {
+    "connection":{
+      "retry": "Reconnecting in {{count}} sec.",
+      "maxattempt": "Max attempt reach!"
+    }
+  },
+  "errorcode": {
+    "connection":{
+      "ERR001": "Server unreachable!",
+      "ERR404": "Service not found!",
+      "ERR900": "Bad Json Format!"
+    }
+  },
+  "app": {
+    "title": "Coma {{version}}!"
+  },
+  "categories": {
+    "title": "Categories: ",
+    "selection": "{{count}} selected",
+    "hidden": "({{count}} hidden)"
+  },
+  "exercises": {
+    "title": "Exercises: "
+  },
+  "historics": {
+    "title": "Recent search: "
+  },
+  "populars": {
+    "title": "Populars search: "
+  },
+  "searchbox": {
+    "placeholder": "keyword search"
+  },
+  "filterbox": {
+    "placeholder": "filter results",
+    "label": "Filter:"
+  }
+}

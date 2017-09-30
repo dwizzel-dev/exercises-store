@@ -1,0 +1,41 @@
+{
+  "generic":{
+    "loading": "<img src=\"assets/img/loading.png\" class=\"loading-icon-small loading\">"
+  },
+  "errormsg": {
+    "connection":{
+      "retry": " Reconnection dans {{count}} sec.",
+      "maxattempt": "Nombre de tentative atteinte!"
+    }
+  },
+  "errorcode": {
+    "connection":{
+      "ERR001": "Serveur non rejoignable!",
+      "ERR404": "Service introuvable!",
+      "ERR900": "Format Json corrompu!"
+    }
+  },
+  "app": {
+    "title": "Coma {{version}}!"
+  },
+  "categories": {
+    "title": "Categories: ",
+    "selection": "{{count}} selectionnees",
+    "hidden": "({{count}} cachees)"
+  },
+  "exercises": {
+    "title": "Exercices: "
+  },
+  "historics": {
+    "title": "recherche recente: "
+  },
+  "populars": {
+    "title": "recherche populaire: "
+  },
+  "searchbox": {
+    "placeholder": "rechercher"
+  },
+  "filterbox": {
+    "placeholder": "filtrer"
+  }
+}

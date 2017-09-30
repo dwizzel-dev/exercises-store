@@ -1,0 +1,11 @@
+<div class="form-group">
+    <input 
+        #input 
+        class="form-control form-control-sm" 
+        type="text" 
+        [placeholder]="filterboxParams.placeholder" 
+        [value]="filterboxParams.value" 
+        [disabled]="filterboxParams.disabled" 
+        (keyup)="onKey(input.value)" 
+    />
+</div>

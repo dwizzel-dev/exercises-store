@@ -1,0 +1,34 @@
+{
+	"logger": true,
+	"host": "127.0.0.2",
+	"api": {
+        "retry": {
+            "delay": 3000,
+            "attempt": 3
+        },
+        "http":{
+            "host": "127.0.0.1",
+            "port": 80,
+            "retry": 3000,
+            "timeout": 10000
+        },
+        "test": {
+            "delay" : 8000,
+            "async" : false,
+            "substract": 1000,
+            "badservice": "/bad/service",
+            "badjson": "/bad/json",
+            "badok": "/bad/ok"
+        },
+        "category": {
+            "categories": "/filter"
+        },
+        "search": {
+            "history": "/search/history",
+            "popular": "/search/popular" 
+        }
+        
+    },
+    "version": "1.0.0",
+    "env": "prod"
+}

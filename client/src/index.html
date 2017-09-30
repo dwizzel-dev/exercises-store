@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercises Store 13.0.0 (webpack 3.6.0)</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../assets/css/bootstrap-4.0.0-alpha.6-dist/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/global.css" rel="stylesheet">
+    </head>
+  <script>
+  //prevent back button on mobile phone
+  window.location.hash = '#loading';
+  window.history.pushState(null, '', '#started');
+  window.onhashchange = function(){
+    if(location.hash == '#loading'){
+      window.history.pushState(null, '', '#started');
+      }
+    }  
+  </script>
+  <body>
+    <!--main container -->
+    <div class='container'>
+      <!--main appz -->
+      <appz>
+        <!--main loader -->
+        <div class="main-loader">
+          <div class="loader">
+            <img src="../assets/img/loading.png" class="loading-icon loading">
+            <br />
+            <img src="../assets/img/logo.png" class="loading-logo">
+          </div>
+        </div>
+      </appz>
+     </div> 
+  </body>
+</html>

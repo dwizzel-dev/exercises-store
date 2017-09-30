@@ -1,0 +1,14 @@
+div.title{
+border-bottom: 1px solid #aaa;
+margin-bottom: 20px;
+}
+div.section div{
+border-bottom: 1px dotted #999;
+margin-bottom: 20px;
+padding-bottom: 10px;	
+}
+div.section div:last-child{
+border-bottom: 0;
+margin-bottom: 0;
+padding-bottom: 0;	
+}

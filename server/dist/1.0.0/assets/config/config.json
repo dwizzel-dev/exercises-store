@@ -1,0 +1,33 @@
+{
+	"logger": true,
+	"host": "exercise-store.com",
+	"api": {
+        "retry": {
+            "delay": 3000,
+            "attempt": 3
+        },
+        "http":{
+            "host": "http://api.exercises-store.com",
+            "port": 80,
+            "retry": 3000,
+            "timeout": 10000
+        },
+        "test": {
+            "delay" : 8000,
+            "async" : false,
+            "substract": 1000,
+            "badservice": "/bad/service",
+            "badjson": "/bad/json"
+        },
+        "category": {
+            "categories": "/filter"
+        },
+        "search": {
+            "history": "/search/history",
+            "popular": "/search/popular" 
+        }
+        
+    },
+    "version": "13.0.0",
+    "env": "dev"
+}

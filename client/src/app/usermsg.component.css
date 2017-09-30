@@ -1,0 +1,36 @@
+div{
+color: #5bc0de;
+margin-bottom: 10px;
+font-size: small;
+padding:0 5px;
+border-radius: 3px;
+float:left;
+}
+div.err{
+background-color: rgba(201, 48, 44, 0.2);
+padding: 5px 10px;
+color: #c9302c;
+font-size: small;
+border: 1px solid #c9302c;
+}
+div.ok{
+background-color: rgba(92, 184, 92, 0.20);
+padding: 5px 10px;
+color: #3c763d;
+font-size: small;
+border: 1px solid #3c763d;
+}
+div.warn{
+background-color: rgba(236, 151, 31, 0.2);
+padding: 5px 10px;
+color: #ec971f;
+font-size: small;
+border: 1px solid #ec971f;
+}
+div.counter{
+padding: 0px 4px;
+color: #ec971f;
+font-size: small;
+border: 1px solid #ec971f;
+float:right;
+}

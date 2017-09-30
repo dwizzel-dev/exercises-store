@@ -1,0 +1,15 @@
+<div>
+    <h5>{{ 'historics.title' | translate }}</h5>
+</div>
+<div>
+    <usermsg 
+        [usermsgParams]="userMsg"
+    ></usermsg>
+</div>    
+<div>
+    <ul>
+        <li *ngFor="let kw of arrSearch">
+            {{kw.name}} ({{kw.count}})
+        </li>        
+    </ul>
+</div> 
