@@ -24,6 +24,8 @@ var config = {
         port: 80,
         root: path.join(basepath, './dist/1.0.0'),
         assets: path.join(basepath, './dist/1.0.0/assets'),
+        //root: path.join(basepath, './dev'),
+        //assets: path.join(basepath, './dev'),
         allow: '*'
     },
     db: {

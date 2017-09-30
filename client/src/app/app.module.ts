@@ -51,12 +51,12 @@ import {Logger } from './logger.service'
 
 export function translateFactory(http:Http):TranslateStaticLoader {
   //console.log(__filename + ' function.translateFactory()');
-  return new TranslateStaticLoader(http, '../assets/i18n', '.json');
+  return new TranslateStaticLoader(http, 'http://127.0.0.2/assets/i18n', '.json');
 }
 
 export function configFactory(http: Http):ConfigLoader {
   //console.log(__filename + ' function.configFactory()');
-  return new ConfigHttpLoader(http, '../assets/config/config.json'); 
+  return new ConfigHttpLoader(http, 'http://127.0.0.2/assets/config/config.json'); 
 }
 
 @NgModule({

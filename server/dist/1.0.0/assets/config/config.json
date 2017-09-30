@@ -1,13 +1,13 @@
 {
-	"logger": true,
-	"host": "exercise-store.com",
+	"logger": false,
+	"host": "http://127.0.0.2",
 	"api": {
         "retry": {
             "delay": 3000,
             "attempt": 3
         },
         "http":{
-            "host": "http://api.exercises-store.com",
+            "host": "http://127.0.0.1",
             "port": 80,
             "retry": 3000,
             "timeout": 10000
@@ -28,6 +28,6 @@
         }
         
     },
-    "version": "13.0.0",
-    "env": "dev"
+    "version": "1.0.0",
+    "env": "prod"
 }

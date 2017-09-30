@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CLIENT HOST</title>
+    <title>Exercises Store 1.0.0 (webpack 3.6.0)</title>
     <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="assets/css/bootstrap-4.0.0-alpha.6-dist/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/global.css" rel="stylesheet">
-    <script src="assets/js/jquery-3.2.0.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-  </head>
+    <link href="http://127.0.0.2/assets/css/bootstrap-4.0.0-alpha.6-dist/bootstrap.min.css" rel="stylesheet">
+    <link href="http://127.0.0.2/assets/css/global.css" rel="stylesheet">
+    </head>
+  <script>
+  //prevent back button on mobile phone
+  window.location.hash = '#loading';
+  window.history.pushState(null, '', '#started');
+  window.onhashchange = function(){
+    if(location.hash == '#loading'){
+      window.history.pushState(null, '', '#started');
+      }
+    }  
+  </script>
   <body>
-    <h1>CLIENT HOST 1.0.0</h1>
-    <h2></h2>
-  </body>
+    <!--main container -->
+    <div class='container'>
+      <!--main appz -->
+      <appz>
+        <!--main loader -->
+        <div class="main-loader">
+          <div class="loader">
+            <img src="http://127.0.0.2/assets/img/loading.png" class="loading-icon loading">
+            <br />
+            <img src="http://127.0.0.2/assets/img/logo.png" class="loading-logo">
+          </div>
+        </div>
+      </appz>
+     </div> 
+  <script type="text/javascript" src="/polyfills.c176580286fd289fc17f.js"></script><script type="text/javascript" src="/vendor.c176580286fd289fc17f.js"></script><script type="text/javascript" src="/app.c176580286fd289fc17f.js"></script></body>
 </html>

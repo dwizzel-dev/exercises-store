@@ -101,6 +101,7 @@ export class HttpCallService{
         }
 
         let url:string =  this.host + ':' + this.port + service;
+        //console.log(url);
         var req = new Request(
             new RequestOptions({
                 url: url,
